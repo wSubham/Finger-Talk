@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #6b21a8, #4f46e5);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.navbar {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.progress-bar {
+    width: 100px;
+    height: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.progress-bar::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 0;
+    background: #fbbf24;
+    border-radius: 10px;
+    transition: width 0.3s;
+}
+
+.coins {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fbbf24;
+}
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    background: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.tab-button {
+    background: transparent;
+    border: none;
+    font-size: 1.125rem;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.tab-button.active {
+    background: #fbbf24;
+    color: black;
+}
+
+.tab-button:hover {
+    background: #f0f0f0;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.video-placeholder {
+    background: #e5e7eb;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.translation-box {
+    background: #f3f4f6;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.button {
+    background-color: #10b981;
+    color: white;
+    font-size: 1.125rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #059669;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-content">
+                <!-- Add your navbar content here -->
+            </div>
+        </nav>
+
+        <div class="content">
+            <h1 class="title">Tell us about yourself</h1>
+            <form id="survey-form" class="form">
+                <div class="form-group">
+                    <label for="experience" class="form-label">What's your experience with sign language?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="beginner" name="experience" value="beginner" />
+                        <label for="beginner">Beginner</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="intermediate" name="experience" value="intermediate" />
+                        <label for="intermediate">Intermediate</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="advanced" name="experience" value="advanced" />
+                        <label for="advanced">Advanced</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="goal" class="form-label">What's your primary goal?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="personal" name="goal" value="personal" />
+                        <label for="personal">Personal growth</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="professional" name="goal" value="professional" />
+                        <label for="professional">Professional development</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="communication" name="goal" value="communication" />
+                        <label for="communication">Better communication with others</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="preference" class="form-label">How do you prefer to learn?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="visual" name="preference" value="visual" />
+                        <label for="visual">Visual lessons</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="interactive" name="preference" value="interactive" />
+                        <label for="interactive">Interactive exercises</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="reading" name="preference" value="reading" />
+                        <label for="reading">Reading materials</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-button">Start Learning</button>
+            </form>
+        </div>
+    </div>
+    <script src="survey.js"></script>
+</body>
+</html>

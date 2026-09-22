@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Page</title>
+    <link rel="stylesheet" href="learn.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <!-- Add your navbar content here -->
+        </nav>
+
+        <div class="content">
+            <header class="header">
+                <h1 class="title">Learn Indian Sign Language</h1>
+                <div class="progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                    <span id="coins" class="coins">0 coins</span>
+                </div>
+            </header>
+
+            <main class="main">
+                <div class="tabs">
+                    <button class="tab-button active" onclick="showTab('learn')">Learn</button>
+                    <button class="tab-button" onclick="showTab('implement')">Implement</button>
+                </div>
+                <div id="learn-content" class="tab-content">
+                    <h2 class="lesson-title">Lesson 1: Basic Greetings</h2>
+                    <div class="video-placeholder">
+                        <p>Video lesson placeholder</p>
+                    </div>
+                    <button id="complete-lesson" class="button">Complete Lesson</button>
+                </div>
+                <div id="implement-content" class="tab-content hidden">
+                    <h2 class="lesson-title">Practice Your Skills</h2>
+                    <div class="video-placeholder">
+                        <p>Webcam feed placeholder</p>
+                    </div>
+                    <div class="translation-box">
+                        <h3>Translation:</h3>
+                        <p>Your sign language will be translated to text and speech here.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="learn.js"></script>
+</body>
+</html>
