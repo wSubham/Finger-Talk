@@ -305,7 +305,7 @@ The original About page identifies the following project roles:
 | Rikhiya Mardanya | Frontend Developer |
 | Rik Mondal | Machine Learning Developer |
 | Suprakash Maji | Machine Learning Developer |
-| Shubham Das | Backend Developer |
+| Subham Das | Backend Developer |
 | Sayan Paul | Backend Developer |
 
 These roles are reproduced from the original project files and may represent the division of work at the time of development.
