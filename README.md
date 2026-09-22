@@ -190,8 +190,6 @@ git clone https://github.com/wSubham/FingerTalk.git
 cd FingerTalk
 ```
 
-Replace `wSubham` with the GitHub account that owns the repository.
-
 ### 2. Create a Python virtual environment
 
 Windows:
